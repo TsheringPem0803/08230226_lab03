@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tshering Pem | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section home">
+    <img src="me.jpg" alt="Profile Picture" class="profile-pic">
+    <h1 id="greeting">Tshering Pem</h1>
+    <p>Programme: Bachelor of Education in IT</p>
+    <p class="tagline">“Empowering learners to create with technology.”</p>
+    <button id="theme-toggle">🌙 Dark Mode</button>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Hi, I’m <strong>Tshering Pem</strong> and I love reading and exploring new things. Recently, I’ve discovered a passion for coding, which has opened up a whole new world of creativity and learning for me. Among all the subjects, English is my favorite, as it allows me to express myself clearly and creatively.</p>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <h2>My Learning Journey 📚</h2>
+    <ul>
+      <li><strong>B.Ed in IT</strong> – Samtse College of Education – 2023–Present</li>
+      <li><strong>High School</strong> – Drukgyel Higher Secondary School – 2021–2022</li>
+      <li><strong>Middle School</strong> – Lamgong Middle Secondary School – 2012–2020</li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h2>What I Do Best</h2>
+    <h3>Technical Skills</h3>
+    <ul>
+      <li>Python</li>
+      <li>C++</li>
+      <li>Database Management</li>
+    </ul>
+    <h3>Soft Skills</h3>
+    <ul>
+      <li>Presentation</li>
+      <li>Good Communicator</li>
+      <li>Confidence</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Smart Dustbin</h3>
+      <p>A creative way to keep the environment clean. It works when it senses objects near it.</p>
+      <p><strong>Technologies:</strong> Arduino, Python</p>
+    </div>
+
+    <div class="project">
+      <h3>Personal Portfolio Website</h3>
+      <p>This dreamy portfolio showcases my skills, journey, and projects in a soft, pastel style.</p>
+      <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+      <a href="https://github.com/TsheringPem0803/08230226_labwork02.git" target="_blank">Visit Repository</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Let’s Connect</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Write your sweet message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="form-status"></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Tshering Pem • Made with love</p>
+    <div class="socials">
+      <a href="https://github.com/TsheringPem0803" target="_blank">
+        <img src="github.png" alt="GitHub" class="social-icon">
+      </a>
+      <a href="tel:+97517952487">
+        <img src="phone.png" alt="Call Me" class="social-icon">
+      </a>
+    </div>
+  </footer>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
